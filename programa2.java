@@ -1,25 +1,29 @@
 
+class SCope {
+
+public static void main(String args[]) {
+
+int n, d, q;
+
+n = 10;
+d = 2;
+if( d != 0 && (n % d) == 0)
+
+System.out.println(d + "is a factor of " + n);
+
+d = 0; 
+if (d != 0 && (n % d) == 0)
+
+System.out.println(d+ "is a factor of " + n);
+
+if(d != 0 & (n % d) == 0)
+
+System.out.println(d + " is a factor of " + n); 
 
 
-public class programa2 {
-
-    public static void main(String args[] ) {
-
-    int a, b, c;
-
-    a = 2;
-    b = 3;
-    c = 4;
-
-    if (a < b) System.out.println("a é menor que b");
-     
-    if (a == b ) System.out.println (" a é igual a b");
 
 
-
-    }
-
-
+}
 
 
 }
