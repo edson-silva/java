@@ -1,13 +1,12 @@
 package com;
 
 
-//declaração da classe
 public class Guitarra {
 
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
 
-    //Criação do contrutor da classe Guitarra
+   
     public Guitarra(
             String numeroSerie, String fabricante,
             String modelo,		String tipo,
@@ -53,10 +52,10 @@ public class Guitarra {
         this.preco = preco;
     }
 
-    //O método main ()  é o método principal da classe
+
     public static void main (String[] args) {
-        //instanciamoss um objeto chamado "minhaGuitarra" que será do tipo "Guitarra"
-        //Os valores passados são usados pelo construtor da classe para criar o objeto
+       
+        
         Guitarra minhaGuitarra = new Guitarra("01020304", "Fender", "Telecaster", "Elétrica", "Mogno", 1500);
         //testando os dados da classe, imprimindo a saída simples no terminal
         System.out.println("Número de Série: " + (minhaGuitarra.getNumeroSerie()));
